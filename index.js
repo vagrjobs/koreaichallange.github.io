@@ -17,6 +17,6 @@ app.get('/',(req,res) => {res.send('Welome to Dairy Milk Application')})
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
-app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}, today's date is : ${date}
+app.listen(PORT, () => console.log(`Server running on port: http://vagrjobs.github.io/website, today's date is : ${date}
 `))
 
